@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/659089f919.js" crossorigin="anonymous"></script>
+    <style>
+         @font-face {
+           font-family: averta;
+           src: url("./Averta-Regular.otf");
+           font-weight: 1200;
+        }
+        * {
+           font-family:'averta';
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+    <div class="cont">
+        <h1>WORK TO-DOS</h1>
+        <h3>Enter text into the input field to add items to list.</h3>
+        <p>Click the item to mark it as complete.</p>
+        <p class="txt">Click the "X" to remove the items from your list.</p>
+
+        <form  id="input-box">
+            <input type="text" placeholder="New Items..."  id="input-box">
+            <button  onclick="addTask()">
+                <i class="fa-solid fa-pen fa-sm" style="color: #469fbc;"></i>
+            </button>
+        </form>
+       
+        <!-- <ul id="list-container">
+            <li><input type="checkbox">Task1</li>
+            <li><input type="checkbox">Task2</li>
+            <li><input type="checkbox">Task3</li>
+            <li><input type="checkbox">Task4</li>
+        </ul> -->
+    </div>
+
+    <script>
+        console.log('My forming')
+        alert('Hey you')
+        // function addTask() {
+        //     let input = document.getElementById("input-box").value;
+        //     let list = document.getElementById("list-container");
+        //     let li = document.createElement("li");
+        //     li.appendChild(document.createTextNode(input));
+        //     list.appendChild(li);
+        //     document.getElementById("input-box").value = "";
+        // }
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(43, 159, 183);
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    display: block;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    color: gold;
+}
+
+p{
+    color: rgb(24, 244, 101);
+    font-weight: bold;
+}
+
+.txt{
+    color: rgb(10, 71, 114);
+}
+
+/* .inp{
+    width: 13cm;
+    height: 7mm;
+    
+} */
+
+input[type="text"] {
+    width: 15cm;
+    height: 7mm;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    background:  rgb(10, 71, 114) ;
+    width: 1cm;
+    height: 10mm;
+    border: none;
+    border-radius: 5px;
+}
+
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px;
+    text-align: center;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: none;
+    margin-right: 10px;
+    
+    
+} */
